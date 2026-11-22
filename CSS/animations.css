@@ -1,0 +1,6 @@
+/* AXON motion system */
+@keyframes zoom{to{transform:scale(1.08)}}
+
+@keyframes marquee{to{transform:translateX(-50%)}}
+
+@keyframes fill{to{clip-path:inset(0 0 0 0)}}
