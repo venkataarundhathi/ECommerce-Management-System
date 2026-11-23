@@ -6,15 +6,11 @@ conn = mysql.connector.connect(
     password="YOUR_PASSWORD",
     database="ecommerce_db"
 )
-
 cursor = conn.cursor()
-
 cursor.execute("SELECT * FROM product")
-
 rows = cursor.fetchall()
-
 for row in rows:
     print(row)
-
 cursor.close()
 conn.close()
+
