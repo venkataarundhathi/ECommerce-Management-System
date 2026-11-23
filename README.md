@@ -1,20 +1,42 @@
-# E-Commerce Management System
+# E-Commerce Management System for Electronic Devices
 
 ## Project Overview
-An electronic devices e-commerce management system
-designed to manage products, customers, orders,
-payments, and product assessments.
+A database management system designed to manage an electronic devices e-commerce platform.
 
-## Key Features
-- Product and category management
+## Technologies Used
+- MySQL
+- MySQL Workbench
+- VS Code
+- GitHub
+
+## Main Features
 - Customer management
-- Shopping cart management
-- Order and payment management
-- Product Usage Suitability Checker
-- Product replacement recommendations
+- Product and category management
+- Order management
+- Payment management
+- Inventory management
+- Product search and suitability checking
+- Automatic inventory updates
 
-## Database
-Oracle SQL
+## Database Concepts
+- 18 Database Tables
+- Primary and Foreign Keys
+- SQL Joins
+- Stored Procedures
+- Views
+- Triggers
+- Transactions
+- CRUD Operations
 
-## Project Type
-Database Management System (DBMS)
+## Project Files
+- schema.sql
+- procedures.sql
+- views.sql
+- triggers.sql
+
+## Future Enhancements
+- Java backend integration
+- Customer and admin interfaces
+- Online payment integration
+- Product recommendation system
+-
